@@ -218,6 +218,7 @@ img.emoji {
 .emoji-menu .emoji-items {
     padding-right: 8px;
     outline: 0 !important;
+    text-align: center;
 }
 
 .emoji-menu img {
@@ -229,7 +230,7 @@ img.emoji {
 
 .emoji-menu .emoji-items a {
     margin: -1px 0 0 -1px;
-    padding: 5px;
+    padding: 5px 0 5px 0;
     display: block;
     float: left;
     border-radius: 2px;
