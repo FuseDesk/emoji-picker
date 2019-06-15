@@ -218,6 +218,7 @@ img.emoji {
 .emoji-menu .emoji-items {
     padding-right: 8px;
     outline: 0 !important;
+    text-align: center;
 }
 
 .emoji-menu img {
@@ -234,6 +235,10 @@ img.emoji {
     float: left;
     border-radius: 2px;
     border: 0;
+}
+
+.emoji-menu .emoji-items a.unicode {
+    padding: 5px 0 5px 0;
 }
 
 .emoji-menu .emoji-items a:hover {

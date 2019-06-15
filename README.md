@@ -1,6 +1,6 @@
 # Emoji Picker
 
-:heart_eyes: :stuck_out_tongue_winking_eye: :joy: :stuck_out_tongue: Instantly add Emoji support to input fields on your website! :boom: :sparkles: :thumbsup: :metal:
+:heart_eyes: :stuck_out_tongue_winking_eye: :joy: :stuck_out_tongue: Instantly add emoji support to input fields on your website! :boom: :sparkles: :thumbsup: :metal:
 
 ![Example Screenshot](http://onesignal.github.io/emoji-picker/screenshot.png)
 
@@ -31,9 +31,13 @@
 
 # Configuring Options
 
-**I want the Emoji selector to input Unicode characters instead of images**
+**I want the emoji selector to input Unicode characters instead of images**
 
 Add `data-emoji-input="unicode"` to your input field. Only the `unicode` value is checked for; entering anything else has no effect.
+
+**I want the popup menu to show Unicode characters instead of images**
+
+Add `data-emoji-menu="unicode"` to your input field. Only the `unicode` value is checked for; entering anything else has no effect. Together with the above parameter it helps to create a lightweight emoji selector, i.e. you can get rid of the spritesheets, thus sparing bandwith.
 
 **I want to limit my input field to a certain number of characters (maxlength)**
 
