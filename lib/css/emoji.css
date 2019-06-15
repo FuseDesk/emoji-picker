@@ -230,11 +230,15 @@ img.emoji {
 
 .emoji-menu .emoji-items a {
     margin: -1px 0 0 -1px;
-    padding: 5px 0 5px 0;
+    padding: 5px;
     display: block;
     float: left;
     border-radius: 2px;
     border: 0;
+}
+
+.emoji-menu .emoji-items a.unicode {
+    padding: 5px 0 5px 0;
 }
 
 .emoji-menu .emoji-items a:hover {
