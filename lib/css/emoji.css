@@ -127,7 +127,7 @@ img.emoji {
     position: absolute;
     right: 0;
     z-index: 999;
-    width: 225px;
+    width: 255px;
     overflow: hidden;
     border: 1px #dfdfdf solid;
     -webkit-border-radius: 3px;
@@ -212,13 +212,12 @@ img.emoji {
 .emoji-menu .emoji-items-wrap {
     position: relative;
     height: 174px;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .emoji-menu .emoji-items {
     padding-right: 8px;
     outline: 0 !important;
-    text-align: center;
 }
 
 .emoji-menu img {
